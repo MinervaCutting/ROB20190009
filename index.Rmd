@@ -1,0 +1,271 @@
+---
+title: "RESTAURANT & TRANSFERS - ESMO 2019"
+author: "BUSINESS TRAVEL"
+date: 'From September 26th to October 1st, 2019'
+output:
+ 
+  html_document:
+    css: FORMATO.css
+    highlight: textmate
+    theme: cosmo
+    toc: yes
+    toc_float: yes
+---
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" vspace="50" align="right"></A>') 
+    }); 
+</script> 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
+```
+
+
+```{r libraries}
+library(readxl)
+library(dplyr)
+library(knitr)
+library(timevis)
+
+```
+
+<br>
+<br>
+<br>
+
+# Map
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1Qf_Qp3M9SxXDrDoeNcoANi_R5USZ3GTd&hl=es" width="100%" height="550"></iframe>
+
+<br>
+<br>
+
+
+# September 27th - Restaurant Options {.tabset .tabset-fade .tabset-pills}
+
+## Los Cachitos
+
+Since 2005 Los Cachitos restaurant offers diners a very wide set menu of Galician cuisine in Barcelona.
+
+In this traditional restaurant we will find dishes made of the freshest raw material, meat and seafood from Galicia and fresh fish of the day of the Catalan coast in a very wide set menu that has sandwiches, appetizers and varied tapas, soups, rice, noodles, meats and fish.
+
+Los Cachitos is located in a privileged area, very close to theaters and hotels, and has a large and cozy outdoor terrace and spacious lounges that are decorated in the style of Galician tavern, with walls painted in yellow, lots of wood and characteristic objects of this region.
+
+<img src="https://jobtoday-prod.s3.eu-central-1.amazonaws.com/img/c039f623-8ff4-4e9c-822a-639fe920140a/160x160.jpg" width="100%">
+
+<img src="https://u.tfstatic.com/restaurant_photos/162/57162/169/612/los-cachitos-los-cachitos-d0999.jpg" width="100%">
+
+### Customized Menu
+
+    ALL TO SHARE
+    
+    Iberian Ham
+    Cheese selection
+    Toasted bread with tomato and olive oil
+    Cod fritters
+    Octopus "a la Gallega" (with potatoe, olive oil and spicy pepper)
+    Fried squid "andaluza" style
+    Spicy fried potatoes (patatas bravas)
+    Grill beef steack 
+    Calamary with artichokes
+    
+    Home dessert
+    
+    White and red wine
+    Water
+    Coffee
+    
+    Rates per person: 52€ VAT inc
+
+
+## Palo Cortao
+
+In the heart of Poble Sec, in Barcelona, we will find the restaurant Palo Cortao, a place where a cuisine of Cadiz roots is offered without fear of experiencing new textures.
+
+In Palo Cortao the starters are like in an old tavern, with pork rinds in the style of Cádiz, Iberian ham and beef jerky. We can taste the mix of Andalusian and Catalan cuisine, sea and mountain where fish, rice and beef coexist in harmony.
+
+In the small space, where the old brick floor stands out, 35 people fit between the bar and the wooden tables that fill the living room, at the back of the restaurant. The low ceiling, the furniture and its size make the evening intimate and cozy.
+
+<img src="https://i.pinimg.com/originals/ba/0b/e2/ba0be278778a7afce4e7687487554d26.jpg" width="100%">
+
+<img src="https://lh3.googleusercontent.com/p/AF1QipPT7UAWyNq8HpLbNxMOqHriwHKiqZCjffnyEAEl=s1600-h1600" width="100%">
+
+
+### Menu Options {.tabset .tabset-fade}
+
+#### MENU A
+
+    ALL TO SHARE MENU
+
+    “Feo de Tudela” tomato salad with cured ox ham and Green chilli “piparra”
+    Artichoke chips with Pedro Ximenez wine reduction
+    Mussels “Tom Kha” casserole
+    (coconut milk galanga, ginger, lime .......)
+    Candied potatoes, fried eggs and wils mushrooms
+    Red tuna tataki tempura with teriyaki sauce and almonds purée
+    Grilled skirt steak, caramelized onions and wild mushrooms
+
+    Cheescake with red fruits coulis
+
+
+    Viña Zorzal 2017, 100% garnacha tinta- D.O Navarra
+    Afortunado 2017, 100% verdejo – D.O. Rueda
+    Water and coffees 
+    (1 bottle of wine each 4 pax)
+    
+    Rates per person: 44€ VAT inc
+
+#### MENU B
+
+    ALL TO SHARE MENU
+
+    Figs carpaccio, anchovies, smoked cheese Idiazabal and citrus vinaigrette
+    Homemade pulled pork croquetas
+    Mussels Tom kha casserole
+    (coconut milk galanga, ginger, lime .......)
+    Red tuna tataki tempura with teriyaki sauce and almonds purée
+    Black rice Paella with calamar, monkfish and red prawns from Huelva
+    Grilled iberian pork loin with apple purée and Pedro Ximenez wine reduction
+
+    Lemon mousse with gin&tonic jelly
+
+
+    Bozeto de Exopto 2017: Tempranillo, garnacha y graciano.D.O. Rioja
+    Montenovo 2017, 100% godello – D.O. Valdeorras
+    Water and coffees 
+    (1 bottle of wine each 4 pax)
+    
+    Rates per person: 51,50€ VAT inc
+
+
+
+
+
+# September 30th - 20.00h - La Barca del Salamanca
+
+Already pre-booked 
+
+    * 30 seater bus at disposal for dinner: 382€ VAT inc
+
+## 🍽 Menu Options {.tabset .tabset-fade}
+
+### MENU C
+
+    Starters (to share)
+
+    Special Salad Heart of “Tudela” with goat cheese and guidelines spiced pesto sauce
+    Iberian ham extra from “Guijuelo”
+    Anchovies from L’ Escala and anchovies in vinegar
+    Casserole onion crayfish
+    Andalusian squid
+    Andalusian small squid
+    
+    Main dish (to choose)
+    Hake Basque with clams and white asparagus
+    or
+    Cod ‘’All cremat’’
+    or
+    Paella fish and seafood
+    or
+    The taste of Galicia Entrecote
+    (Roquefort, or grilled or pepper with potatoes and grilled vegetables)
+    or
+    Home of Salamanca Piglet
+    
+    Desserts (to choose)
+    “Catalan” crème 
+    or 
+    Homemade lemon sorbet
+
+    Bread with tomato
+    White wine Verdejo “Corazón Loco”(Andres Iniesta),
+    Red wine Crianza (D.O.Rioja)
+    Water and soft drink
+
+    Coffees, spirits of apple and peach, white spirits of herbs and coffee
+
+    Santiago Cake
+    
+    Rates per person: 46,50€ VAT inc
+
+### MENU E
+
+    Starters (to share)
+    
+    Iberian Ham “extra” from Guijuelo
+    Pork loin Iberian “extra”
+    “Manchego” cheese
+    Salt cod “esqueixada”
+    Fresh “Vinaroz” prawns grilled
+    Fresh baby squid
+    Shrimp Scampi
+    Clams from Carril “à la Marinière”
+
+    Main dish (to choose)
+    Hake Basque with clams and white asparagus
+    or
+    Grilled angler fish with potatoes
+    or
+    Cod ‘’All cremat’’
+    or
+    Beef Sirloin from Galicia (Roquefort, grilled or pepper)
+    or
+    Roast Suckling Piglet from Salamanca
+    or
+    Special Paella fish and seafood
+    
+    Desserts (to choose)
+    “Catalan” crème 
+    or 
+    Homemade lemon sorbet
+
+    Bread with tomato
+    White wine Verdejo “Corazón Loco”(Andres Iniesta),
+    Red wine Crianza (D.O.Rioja)
+    Water and soft drink
+
+    Coffees, spirits of apple and peach, white spirits of herbs and coffee
+
+    Santiago Cake
+    
+    Rates per person: 52,50€ VAT inc
+
+
+
+
+# 🚌 Transfer Rates
+
+    * 26/09 - 1 pax - W6 3405 - 16.55h - Car transfer from Airport (T2) to Hotel Barcelona Universal: 95€ VAT inc
+    * 27/09 - 16 pax - OB 107 - 9.40h - 30 seater bus transfer from Airport (T2) to Hotel Barcelona Universal: 190€ VAT inc
+            - 7 pax - LH 1810 - 11.00h - 18 seater bus transfer from Airport (T1) to Hotel Barcelona Universal: 165€ VAT Inc
+            
+            
+    * 30/09 - 1 pax - Car transfer from the Hotel Barcelona Universal to Airport T2 (W6 3406- 17.30h) Pick up time: 15.00h:95€ VAT
+    * 01/10 - 14 pax - 30 seater bus from Hotel Barcelona Universal to Aiport T1 (RO422 - 11.30h) Pick up time: 9.00h: 190€ VAT inc
+            - 6 pax - Mini Van transfer from Hotel Barcelona Universal to Aiport T1 (LH1815 - 18.30h) Pick up time 16.00h: 105€ VAT inc
+            - 1 pax - Car transfer from the Hotel Barcelona Universal to Airport T1 (LH1813 -15.45h) Pick up time: 13.15h: 95€ VAT inc
+
+<hr>
+
+# ☑ Terms & Conditions
+
+  * Rates valid for 2019.
+  
+  * Net rates for Business Travel
+  
+  * For a group of minimum 15 pax.
+  
+  * Cutting Edge Events management fee including in the detailed rates
+  
+  * VAT included. 
+ 
+  
+*****
+
+
+
+
+
